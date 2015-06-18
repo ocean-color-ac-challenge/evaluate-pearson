@@ -20,3 +20,24 @@ ipython notebook --ip=<evaluation VM IP>
 
 Open the Browser at the VM IP and port 8888
 
+### Install participant applications
+
+* Log on https://challenges.esa.int
+* Go to _Ocean Colour Atmospheric Correction_ Data Challenge
+* Open the _Applications_ tab
+* If needed refresh to load the latest applications releases from GitHub
+* Select the latest application release and copy the URL
+* Log on the Evaluation Environment
+* Run the command below:
+
+```bash
+eceo-getrelease <URL copied earlier
+```
+ 
+ * Then install it with:
+ 
+```bash
+sudo yum install <RPM name>
+```
+
+
