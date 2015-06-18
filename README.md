@@ -7,6 +7,7 @@ sudo yum install -y miniconda-3.8.3
 export PATH=/opt/anaconda/bin/:$PATH
 sudo conda install -y ipython-notebook
 sudo conda install -y pandas scipy numexpr
+sudo yum install -y aria2
 ```
 
 ```bash
